@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Section Col</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 60px;
+      padding: 80px 135px 73px 135px;
+      background: #ffffff;
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      width: 370px;
+      flex-shrink: 0;
+    }
+
+    .img {
+      background-color: #eeeeee;
+      height: 240px;
+      width: 100%;
+      border-radius: 7px;
+      flex-shrink: 0;
+    }
+
+    .desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      width: 270px;
+      flex-shrink: 0;
+      text-align: center;
+      word-break: break-word;
+    }
+
+    .title {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #333333;
+      width: 100%;
+    }
+
+    .body-text {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #999999;
+      width: 100%;
+    }
+
+    .learn-more {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #333333;
+      width: 100%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+
+    <!-- Card 1 -->
+    <div class="container">
+      <div class="item">
+        <div class="img"></div>
+        <div class="desc">
+          <p class="title">Quality</p>
+          <p class="body-text">Quidam officiis similique sea ei, vel tollit indoctum efficiendi nihil tantas platonem eos.</p>
+          <p class="learn-more">Learn more</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="container">
+      <div class="item">
+        <div class="img"></div>
+        <div class="desc">
+          <p class="title">Quality</p>
+          <p class="body-text">Quidam officiis similique sea ei, vel tollit indoctum efficiendi nihil tantas platonem eos.</p>
+          <p class="learn-more">Learn more</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="container">
+      <div class="item">
+        <div class="img"></div>
+        <div class="desc">
+          <p class="title">Quality</p>
+          <p class="body-text">Quidam officiis similique sea ei, vel tollit indoctum efficiendi nihil tantas platonem eos.</p>
+          <p class="learn-more">Learn more</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+width: 325px;
+height: 59px;
+flex-shrink: 0;
+}
