@@ -1,6 +1,17 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #ff0000;
+    color:#fff;
+
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #aaff00;
+
+
 }
 
 .btn {
